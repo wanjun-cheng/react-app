@@ -1,0 +1,63 @@
+:global {
+  html, body, #root {
+    height: 100%;
+  }
+
+  .actions {
+    margin-bottom: 8px;
+    button {
+      margin-right: 5px;
+    }
+  }
+
+  .right {
+    float: right;
+    z-index: 100;
+  }
+
+  .text-right{
+    text-align: right;
+  }
+
+  .margin-l10{
+    margin-left: 10px;
+  }
+
+  .margin-l20{
+    margin-left: 20px;
+  }
+
+  .margin-b20{
+    margin-bottom: 20px;
+  }
+
+  .margin-b10{
+    margin-bottom: 10px;
+  }
+
+  .text-center{
+    text-align: center
+  }
+}
+
+// 全局覆盖第三方组件样式
+body {
+  :global {
+    // .ant-card-head-title {
+    //   align-items: center;
+    //   display: flex;
+    // }
+    .ant-table-wrapper {
+      background: #fff;
+    }
+    .h-ellipsis {
+      display: block;
+    }
+    .h-descriptionList .h-descriptionList-title {
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+}
