@@ -1,2 +1,2 @@
 # react-app
-搭建react项目
+使用create-react-app搭建react项目
